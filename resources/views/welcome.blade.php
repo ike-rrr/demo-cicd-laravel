@@ -68,7 +68,7 @@
     <main>
         <span class="status">● Aplicación funcionando</span>
 
-        <h1>Demo CI/CD IKERSITOU</h1>
+        <h1>Demo CI/CD </h1>
 
         <p>
             Mi primera aplicación Laravel desplegada en producción.
