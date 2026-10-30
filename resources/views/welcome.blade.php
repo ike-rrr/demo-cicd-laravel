@@ -12,7 +12,7 @@
     <main class="container">
 
         <div class="logo">D</div>
-        <!--Intento2-->
+        
         <span class="status" id="status">
             Aplicación funcionando
         </span>
@@ -22,7 +22,7 @@
         <p>
             Aplicación Laravel desplegada en producción.
             Un proyecto para demostrar integración continua
-            y despliegue continuo.
+            y despliegue continuo. bgenuuibnweshunisewhuniuinehgbv
         </p>
 
         <div class="version">
