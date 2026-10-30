@@ -12,9 +12,9 @@
     <main class="container">
 
         <div class="logo">D</div>
-        
+        <!--Intento2-->
         <span class="status" id="status">
-            Aplicación ngsjidnrbijnrg
+            Aplicación funcionando
         </span>
 
         <h1>Bienvenido a <span>DevFlow</span></h1>
