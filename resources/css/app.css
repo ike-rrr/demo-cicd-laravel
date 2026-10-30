@@ -111,11 +111,7 @@ button:hover, .secondary-button:hover {
     box-shadow: 0 5px 20px #9333ea55;
 }
 
-footer {
-    margin-top: 35px;
-    color: #666780;
-    font-size: 11px;
-}
+
 
 .info-content {
     text-align: left;
