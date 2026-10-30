@@ -9,3 +9,136 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #0f1020;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    padding: 45px;
+    background: #191a30;
+    border: 1px solid #30314e;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 20px 60px #00000055;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #9333ea, #6366f1);
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.status {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: #14532d55;
+    color: #4ade80;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 15px;
+}
+
+h1 span {
+    color: #a78bfa;
+}
+
+p {
+    color: #a1a1b5;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+.version {
+    margin-top: 30px;
+    padding: 17px;
+    background: #22233c;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button, .secondary-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #9333ea, #6366f1);
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover, .secondary-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px #9333ea55;
+}
+
+footer {
+    margin-top: 35px;
+    color: #666780;
+    font-size: 11px;
+}
+
+.info-content {
+    text-align: left;
+}
+
+.info-content h3 {
+    margin-top: 0;
+    color: #c4b5fd;
+}
+
+.info-content ul {
+    padding-left: 20px;
+    color: #a1a1b5;
+    line-height: 2;
+    font-size: 13px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+}
