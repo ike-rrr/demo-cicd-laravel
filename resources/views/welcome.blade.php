@@ -12,7 +12,7 @@
     <main class="container">
 
         <div class="logo">D</div>
-
+        <!--Intento2-->
         <span class="status" id="status">
             Aplicación funcionando
         </span>
