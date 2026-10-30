@@ -19,7 +19,7 @@ if (button && status) {
             status.style.color = '#4ade80';
             button.textContent = 'Pausar App';
         } else {
-            status.textContent = 'Te lo has cargado';
+            status.textContent = 'Aplicación en pausa';
             status.style.background = '#7f1d1d55';
             status.style.color = '#f87171';
             button.textContent = 'Reactivar aplicación';

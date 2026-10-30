@@ -22,7 +22,7 @@
         <p>
             Aplicación Laravel desplegada en producción.
             Un proyecto para demostrar integración continua
-            y despliegue continuo. bgenuuibnweshunisewhuniuinehgbv
+            y despliegue continuo.
         </p>
 
         <div class="version">
